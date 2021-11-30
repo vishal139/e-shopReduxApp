@@ -1,0 +1,12 @@
+body{
+    background-color: #74b9ff;
+}
+
+.mycard{
+    transition: transform 0.2s linear;
+}
+.mycard:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 3px #0984e3,  -5px -5px 10px 3px #0984e3;
+    transform: scale(0.99);
+}
